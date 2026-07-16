@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+* {
+    /* font-size: 48px; */
+    font-family: sans-serif, serif, "メイリオ";
+}
+
+h1 {
+    background-color: rgb(174, 220, 255);
+}
+
+a:hover {
+    font-size: 2em;
+}
+
+main {
+    background-color: lab(98.44% -10.19 23.76 / 0.605);
+}
+
+ul {
+    list-style: georgian;
+}
+
+dt {
+    color: hsl(246, 100%, 79%);
+
+    text-align: justify;
+}
+
+dd::first-letter {
+    font-size: 2em;
+}
+
+h4{
+    color: hwb(0 0% 0%);
+}
+
+h4 {
+    background-color: oklab(0% 0 0);
+}
+
+.link {
+    color: #14a5a577;
+}

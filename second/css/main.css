@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+* {
+    /* font-size: 48px; */
+    font-family: sans-serif, serif, "メイリオ";
+}
+
+h1 {
+    background-color: rgb(174, 220, 255);
+}
+
+h3 {
+    background-color: #d6ccff;
+}
+
+h4 {
+    background-color: hsl(286, 100%, 90%);
+}
+
+p::first-letter {
+    font-size: 2em;
+}
+
+a:hover {
+    font-size: 2em;
+}
+
+tr:nth-child(even) {
+    background-color: lab(97.27% -15.72 19.41);
+}
+
+tr:nth-child(odd) {
+    background-color: hsl(49, 100%, 89%);
+}
+
+main {
+    background-color: hsla(311, 100%, 93%, 0.425);
+}
+
+.dod {
+    color: hsla(101, 98%, 16%, 0.467);
+}

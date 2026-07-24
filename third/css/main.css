@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+* {
+    font-family: sans-serif, serif, "メイリオ";
+}
+
+h1 {
+    background-color: rgba(196, 178, 255, 0.658);
+}
+
+header {
+    background-color: rgba(196, 178, 255, 0.658);
+}
+
+h3 {
+    color: rgb(29, 107, 89);
+
+    line-height: 1rem;
+
+    text-align: center;
+
+    text-align: justify;
+}
+
+h4 {
+    color: rgb(43, 130, 85);
+
+    line-height: 1rem;
+
+    text-align: center;
+
+    text-align: justify;
+}
+
+th {
+    border: 1px solid black;
+    background-color: rgb(198, 183, 252);
+}
+
+td {
+    border: 1px solid rgb(84, 46, 118);
+
+    border-radius: 8px;
+
+    border-radius: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: hsl(313, 100%, 91%);
+}
+
+tr:nth-child(odd) {
+    background-color: #c7cbff;
+}
+
+.blue {
+    color: hsl(241, 85%, 60%);
+}
+
+a:hover {
+    font-size: 2em;
+}
+
+main {
+    background-color: rgba(202, 255, 193, 0.589);
+}
+
+ul {
+    list-style: georgian;
+}
+
+li {
+    color: hsl(299, 26%, 54%);
+}

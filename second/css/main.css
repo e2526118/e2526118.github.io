@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+* {
+    font-family: sans-serif, serif, "メイリオ";
+}
+
+h1 {
+    background-color: rgb(158, 143, 198);
+}
+
+header {
+    background-color: rgb(158, 143, 198);
+}
+
+h3 {
+    color: rgb(73, 98, 227);
+
+    line-height: 1rem;
+
+    text-align: center;
+    
+    text-align: justify;
+}
+
+h4{
+    color: rgb(67, 136, 193);
+
+    line-height: 1rem;
+
+    text-align: center;
+    
+    text-align: justify;
+}
+
+li {
+    color: rgb(50, 155, 127);
+
+    line-height: 1rem;
+
+    text-align: center;
+    
+    text-align: justify;
+}
+
+.blue {
+    color: hsl(241, 85%, 60%);
+}
+
+a:hover {
+    font-size: 2em;
+}
+
+main {
+    background-color: lch(88.37% 28.75 323.04 / 0.626);
+}
+
+ul {
+    list-style: georgian;
+}

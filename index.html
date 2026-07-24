@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Riko SUGIMOTO">
+    <meta name="keywords" content="html, css, javascript">
+
+    <script src="./js/main.js" defer></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>最終課題 ｜ 思い出紹介</title>
+
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: solid;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container"></div>
+    <header id="top">
+        <h1>思い出紹介</h1>
+        <nav>
+            ホーム
+            タグリファレンス
+            問い合わせ
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h2>私の思い出</h2>
+            </div>
+            <div>
+                <p>私は大学入学と同時に関東に引っ越してきました</p>
+                <p>それまでは都内に出かけることが少なかったので、この1年半で沢山の場所に行きました</p>
+                <p>今回は、私の思い出の場所を紹介します！</p>
+            </div>
+        </section>
+
+        <section>
+            <h3>私の思い出ベスト3</h3>
+            <ul>
+                <li>新宿御苑</li>
+                <li>クリスマスマーケット</li>
+                <li>新大久保</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>新宿御苑</h3>
+            <div>
+                <p>私が一番思い出に残っているのは、</p>
+                <div>
+                    <p>新宿御苑</p>
+                </div>
+                <p>です</p>
+                <p>高校の同級生と毎年、春に一緒に新宿御苑に行くのがルーティーンになっています</p>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h4>去年の思い出</h4>
+            </div>
+            <p>これは、去年の春に初めて友達と新宿御苑に行った時のものです</p>
+            <p>3月の下旬だったので桜も満開で、とても綺麗でした!</p>
+            <p>人が多かったけど、ベンチに座ったりゆっくり桜を見る余裕はありました</p>
+            <img src="image/gyoenn2.jpg" alt="新宿御苑" width="400" height="370">
+        </section>
+
+        <section>
+            <div>
+                <h4>今年の思い出</h4>
+            </div>
+            <p>これは、今年の3月のものです</p>
+            <p>3月上旬だったので人も少なく、桜もまだ咲いていませんでした...</p>
+            <p>でも東京で気軽に自然を感じることができるので癒しでした!</p>
+            <img src="image/gyoenn1.jpg" alt="新宿御苑" width="350" height="300">
+        </section>
+
+        <section>
+            <h4>豆知識</h4>
+
+            <button onclick="sayspring(0)">日本語</button>
+            <button onclick="sayspring(1)">英語</button>
+            <button onclick="sayspring(2)">フランス語</button>
+            <button onclick="sayspring(3)">スペイン語</button>
+            <button onclick="sayspring(4)">中国語</button>
+
+            <p id="say_spring">ここに各言語の「春」が表示されます</p>
+
+        </section>
+
+        <section>
+            <h2>クリスマスマーケット＆六本木イルミネーション</h2>
+            <p>去年の冬、初めてクリスマスマーケットに行きました！</p>
+            <p>そして、ずっと行きたかった六本木のイルミネーションにも行くことができました！</p>
+        </section>
+
+        <section>
+            <h3>思い出の写真</h3>
+            <img src="image/ropponngi.jpg" alt="六本木イルミ" width="350" height="450">
+            <p>これは、六本木のイルミネーションです</p>
+            <p>人が多くて写真を取るのも大変だったけど、とても綺麗でした</p>
+            <img src="image/xmas.jpg" alt="クリスマスマーケット" width="350" height="450">
+            <p>これは、神宮外苑のクリスマスマーケットです</p>
+            <p>事前予約するとマグカップや紙袋がもらえました</p>
+        </section>
+
+        <section>
+            <h4>穴場</h4>
+            <p>クリスマスマーケットは事前予約が必要ですが、それでも並んでいる時間もあります</p>
+            <p>以下は私が考える穴場な時間です</p>
+            <ul>
+                <li>17:00以降19:30以内</li>
+                <li>11月下旬ごろ</li>
+                <li>近くでイベントがない日（クリスマスマーケット以外のイベントがやっている日は比較的混む印象）</li>
+            </ul>
+        </section>
+
+        <section>
+            <h4>じゃんけん</h4>
+
+            <button onclick="janken(0)">ぐー</button>
+            <button onclick="janken(1)">ちょき</button>
+            <button onclick="janken(2)">ぱー</button>
+
+            <p id="result">ここにじゃんけんの結果が表示されます．</p>
+        </section>
+
+
+        <section>
+            <h2>新大久保</h2>
+            <p>新大久保は、去年の夏に3回ほど行きました</p>
+            <p>おいしい食べ物が沢山あるので何回も行きたくなっちゃいます！</p>
+        </section>
+
+        <section>
+            <h3>新大久保で食べたもの</h3>
+            <p>これは、私が新大久保で食べたものです</p>
+            <p>両方とも行き当たりばったりで入ったお店でしたが、おいしかったのでまた行きたいです</p>
+            <img src="image/sinnookubo1.jpg" alt="新大久保" width="350" height="450">
+            <img src="image/sinnookubo2.jpg" alt="新大久保" width="350" height="450">
+
+        </section>
+
+        <section>
+            <h3>新大久保で気になるものをまとめてみます</h3>
+            <table>
+                <caption>気になるもの</caption>
+                <tr>
+                    <th>分類\もの</th>
+                    <th>カフェ</th>
+                    <th>食べ物</th>
+                    <th>コスメ</th>
+                </tr>
+                <tr>
+                    <th>名前</th>
+                    <td class="blue">Cafe Ivory</td>
+                    <td>テジョンデ</td>
+                    <td>fwee</td>
+                </tr>
+                <tr>
+                    <th>値段</th>
+                    <td class="blue">1,780円</td>
+                    <td>2,600円</td>
+                    <td>5,000円</td>
+                </tr>
+                <tr>
+                    <th>気になり度</th>
+                    <td class="blue">100</td>
+                    <td>70</td>
+                    <td>85</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h4>コスメ</h4>
+            <p>新大久保ではコスメを見るのが楽しいです</p>
+            <p>私が今欲しいコスメは以下の通りです</p>
+            <ul>
+                <li>リップ</li>
+                <li>チーク</li>
+                <li>ラメグリッター</li>
+                <li>下地</li>
+            </ul>
+            <p>今まで使っていたものに飽きてきたので、新しいものを見つけたいです</p>
+        </section>
+
+        <section>
+            <h4>豆知識</h4>
+            <button onclick="sayeat(0)">日本語</button>
+            <button onclick="sayeat(1)">韓国語</button>
+            <button onclick="sayeat(2)">英語</button>
+            <button onclick="sayeat(3)">中国語</button>
+            <button onclick="sayeat(4)">フランス語</button>
+
+            <p id="say_eat">ここに各言語の「いただきます」が表示されます</p>
+
+        </section>
+
+
+
+        <section>
+
+            <h4>みんなのおすすめスポット！</h4>
+            <p>このサイトを読む皆さんのおすすめも知りたいので、ぜひぜひおすすめを送ってください！</p>
+
+            <form action="index.html" method="post">
+
+                <div>
+                    <label for="lastname">姓：</label>
+                    <input type="text" id="lastname" name="surname" value="山田">
+
+                    <label>
+                        名：
+                        <input type="text" id="firstname" name="firstname" value="太郎">
+                    </label>
+                </div>
+
+                <div>
+                    <label for="password">パスワード</label>
+                    <input type="password" name="password" id="password">
+                </div>
+
+                <div>
+                    <input type="checkbox" name="agreement" id="agreement" value="on" checked>
+                    <label for="agreement">プライバシーポリシーに同意する</label>
+                </div>
+
+
+                <div>
+                    <input type="radio" name="gender" id="female" value="female" checked>
+                    <label for="female">女性</label>
+
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">男性</label>
+
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">その他</label>
+
+                    <input type="radio" name="gender" id="none" value="none">
+                    <label for="none">回答しない</label>
+                </div>
+
+                <div>
+                    <label for="remarks">問い合わせ内容</label>
+                    <textarea name="remarks" id="remarks" cols="30" rows="10" accesskey="k" tabindex="0">入力</textarea>
+                </div>
+
+                <div>
+                    <label for="email">メールアドレス:</label>
+                    <input type="email" name="email" id="email" autocomplete="email">
+                </div>
+
+                <div>
+                    <label for="birthday">誕生日:</label>
+                    <input type="date" name="birthday" id="birthday">
+                    <input type="time" name="time" id="time">
+                </div>
+
+                <div>
+                    <label for="tel">電話番号</label>
+                    <input type="tel" name="tel" id="tel" autocomplete="tel">
+                </div>
+
+                <div>
+                    <label for="upload-file">アップロードしたいファイル</label>
+                    <input type="file" name="upload-file" id="upload-file">
+                </div>
+
+                <div>
+                    <input type="submit" value="送信!">
+                    <input type="reset" value="リセット">
+                </div>
+
+            </form>
+        </section>
+
+        <section>
+            <h4>受信データ</h4>
+            <div>
+                氏名:
+                <span id="display-surname"></span>
+                <span id="display-firstname"></span>
+            </div>
+        </section>
+
+
+
+        <p><a href="#top">トップに戻る</a></p>
+    </main>
+
+    <footer>
+        Copyright &copy; Riko SUGIMOTO, All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>
